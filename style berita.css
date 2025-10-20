@@ -1,0 +1,174 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: rgb(25, 25, 25);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .img{
+            display: flex; align-items: center;
+        }
+        .img img{
+            width: 100px;
+            border-radius: 24%;
+        }
+        .img h1{
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+        span{
+            font-size: 1.1em;
+            font-style: italic;
+            color: #ffffff;
+        }
+        nav{
+            background-color: rgb(44, 44, 44);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-radius: 30px;
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 14px;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            position: relative;
+            margin:  0 15px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background: rgb(0, 0, 0);
+            border-radius: 5px;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 42px;
+            left: 0;
+            background: rgb(43, 42, 42);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        nav ul li ul li{
+            margin: 0;
+            width: 150px;
+        }
+        nav ul li ul li a{
+            padding: 10px;
+            font-weight: normal;
+        }
+        nav ul li:hover ul {
+            display: blocK;
+        }
+        main h1,main{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            background: #e7e7e7;
+            padding: left 20px;
+            padding-right: 20px;
+        }
+        section {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        article {
+            flex: 1;
+            padding: 20px;
+            background: #454f68;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            color: white;
+            margin-bottom: 24px;
+        }
+        article ul {
+            margin-top: 10px;
+            padding: 0;
+            text-align: left;   
+            margin-left: 0;
+        }
+
+        article ul a {
+            display: inline-block;
+            background-color: #0056b3;
+            color: white;
+            padding: 6px 12px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        article ul a:hover {
+            background-color: #4da3ff;
+
+        }
+        article img{
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            max-width: 350px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        .galeri {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            max-width: 350px;
+            margin: 0 auto; 
+        }
+
+        .galeri img {
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        
+        aside{
+            justify-content: center;
+            padding: 14px ;
+            background: #f4f4f4;
+            background-color: rgb(41, 41, 41);
+            color: white;
+        }
+        footer{
+            background: rgb(25, 25, 25);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            border-top: 1px solid #444;
+        }
+        main {
+            gap: 20px;
+        }
+        @media (max-width: 1315px) {
+            span {
+                display: none;
+            }
+
+        }
+

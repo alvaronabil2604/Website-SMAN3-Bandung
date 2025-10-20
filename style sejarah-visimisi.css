@@ -1,0 +1,170 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: rgb(25, 25, 25);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .img{
+            display: flex; align-items: center;
+        }
+        .img img{
+            width: 100px;
+            border-radius: 24%;
+        }
+        .img h1{
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+        span{
+            font-size: 1.1em;
+            font-style: italic;
+            color: #ffffff;
+        }
+        nav{
+            background-color: rgb(44, 44, 44);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-radius: 30px;
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 14px;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            position: relative;
+            margin:  0 15px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background: rgb(0, 0, 0);
+            border-radius: 5px;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 42px;
+            left: 0;
+            background: rgb(43, 42, 42);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        nav ul li ul li{
+            margin: 0;
+            width: 150px;
+        }
+        nav ul li ul li a{
+            padding: 10px;
+            font-weight: normal;
+        }
+        nav ul li:hover ul {
+            display: blocK;
+        }
+
+        main {
+            padding: 30px 15px;
+            background: #e7e7e7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        main h1 {
+            margin-bottom: 30px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .garis {
+            width: 80%;
+            margin: 0px auto 20px auto;
+            border: none;
+            border-top: 3px solid black;
+        }
+
+
+        .box-luar {
+            background: #454f68;
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .box-luar h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .box-dalam {
+            background: white;
+            color: black;
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .box-dalam img{
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            max-width: 300px;
+            margin: 0 auto;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .box-dalam p {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+
+        aside{
+            justify-content: center;
+            padding: 14px ;
+            background: #f4f4f4;
+            background-color: rgb(41, 41, 41);
+            color: white;
+        }
+        footer{
+            background: rgb(25, 25, 25);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            border-top: 1px solid #444;
+        }
+        main {
+            gap: 20px;
+        }
+        @media (max-width: 1315px) {
+            span {
+                display: none;
+            }
+
+        }

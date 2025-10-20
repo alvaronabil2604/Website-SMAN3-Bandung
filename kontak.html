@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kontak - SMA Negeri 3 Bandung</title>
+    <link rel="stylesheet" type="text/css" href="style kontak.css">
+    <link rel="icon" href="image/icon" href="">
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img src="photo/sman3.webp" alt="Logo SMAN 3 Bandung" >
+            <h1 >SMAN 3 Bandung</h1>
+        </div>
+        <span >"Knowlage is power but Character is more"</span>
+        <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li>
+                <a href="">Profil</a>
+                <ul>
+                    <li><a href="SejarahSekolah.html">Sejarah Sekolah</a></li>
+                    <li><a href="VisiMisi.html">Visi & Misi</a></li>
+                    <li><a href="GuruStaff.html">Guru & Staff</a></li>
+                </ul>
+            </li>
+            <li><a href="berita.html">Berita</a>
+            </li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+
+    </nav>
+    </header>
+    <main class="kontak-container">
+        <section class="form-section">
+            <h2>Hubungi Kami</h2>
+            <form class="kontak-form" onsubmit="return showpopup()">
+                <label>Nama</label>
+                <input type="text" placeholder="Masukkan nama Anda" required>
+                <label>Email</label>
+                <input type="email" placeholder="Masukkan email Anda" required>
+                <label>Pesan atau Pertanyaan</label>
+                <textarea placeholder="Tulis pesan Anda di sini..." rows="5" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+
+        </section>
+    </main>
+
+    <aside>
+        <h3>Informasi Tambahan</h3>
+        <p>Info Ujian Tengah Semester dimulai tanggal 14 Oktober 2025</p>
+    </aside>
+    <footer>
+        <p>&copy; 2025 Portal Siswa SMAN 3 Bandung</p>
+    </footer>
+    <script>
+        function showpopup( ) {
+            alert("pesan anda telah terkirim !");
+            window. location.href = "webl.html";
+            return false;
+        }
+        </script>
+</body>
+</html>
